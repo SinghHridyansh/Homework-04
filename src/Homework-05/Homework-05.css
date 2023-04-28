@@ -1,0 +1,57 @@
+.Homework_05 {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+}
+.Homework_05_NavBar {
+  background-color: #cc0000;
+  width: 100vw;
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Homework_05_content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+.Homework_05_content > h1 {
+  font-size: 40px;
+}
+.Homework_05_content > p {
+  font-size: 20px;
+}
+.Homework_05_logo {
+  color: white;
+  font-size: 23px;
+  margin-left: 30px;
+}
+
+.Homework_05_NavBar > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-right: 30px;
+  height: 80px;
+}
+.Homework_05_NavBar > ul > li {
+  list-style: none;
+  font-weight: 500;
+  height: 80px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Homework_05_NavBar > ul > li:hover {
+  background-color: #9c0000;
+  transition: 0.2s ease-in-out;
+}

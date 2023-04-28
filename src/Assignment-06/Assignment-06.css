@@ -1,0 +1,104 @@
+.Assignment_06 {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.Assignment_06_Navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  align-items: center;
+}
+.A06_Nav_L {
+  display: flex;
+  margin-left: 2px;
+}
+.A06_Nav_L > img {
+  height: 130px;
+}
+.A06_Nav_L > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.A06_Nav_L > ul > li {
+  list-style: none;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.A06_Nav_R {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-right: 50px;
+}
+.A06_Nav_R > button {
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+}
+.A06_signup {
+  font-size: 17px;
+  background-color: #2b8941;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 120px;
+  border-radius: 7px;
+}
+.A06_Hero {
+  width: 100%;
+  height: 50vh;
+  background-color: #19325b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.A06_Hero > h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+.A06_Hero > p {
+  color: rgb(184, 184, 184);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.A06_Hero > button {
+  background-color: #2b8941;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 170px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.A06_insight {
+  background-color: white;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.A06_insight_card {
+  width: 25vw;
+  background-color: rgb(228, 228, 228);
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+}
+.A06_insight_card > p {
+  width: 80%;
+}
+.A06-insigth-icon {
+  font-size: 5.5rem;
+}

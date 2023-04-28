@@ -1,0 +1,68 @@
+h1,
+p,
+span {
+  margin: 0;
+  color: #717171;
+}
+.card {
+  background-color: #e9eef2;
+  height: 50vh;
+  width: 380px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.card_main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userimg {
+  border-radius: 50%;
+  height: 120px;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.bottom > button {
+  width: 120px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+.purple {
+  background-color: #9b45e4;
+}
+.pink {
+  background-color: #e13a9d;
+}
+.hglt {
+  color: #9b45e4;
+  font-weight: 700;
+  font-size: 20px;
+}
+.txt {
+  color: #717171;
+  font-weight: 400;
+  font-size: 15px;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+p {
+  font-size: 15px;
+}

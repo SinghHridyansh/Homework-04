@@ -1,0 +1,28 @@
+.Homework_13 {
+  height: 100vh;
+  color: #000;
+  text-align: center;
+  background-color: #c4e8c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Homework_13_personcard {
+  background-color: rgba(255, 255, 255, 0.725);
+  height: 60vh;
+  width: 30vw;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  border-radius: 25px;
+}
+.Homework_13_personcard > img {
+  height: 200px;
+  width: 200px;
+}
+.Homework_13_personcard > p {
+  color: black;
+}

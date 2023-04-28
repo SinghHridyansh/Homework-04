@@ -1,0 +1,87 @@
+.TodoApp {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #66a4ff,
+    #a391ef,
+    #cc7dd0,
+    #e46ca8,
+    #e9647d
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.TodoApp > h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.TodoApp > h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.TodoApp > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.TodoApp > form > input {
+  height: 50px;
+  width: 300px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 15px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.39);
+}
+.TodoApp > form > button {
+  height: 50px;
+  width: 90px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(144, 228, 144);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.39);
+}
+.TodoApp > ul {
+  /* background-color: aqua; */
+  width: 30%;
+}
+.TodoApp > ul > li {
+  list-style: circle;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo_actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.todo_actions > button {
+  border: none;
+  height: 40px;
+  width: 80px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+}
+.todo_actions > button:nth-child(1) {
+  width: 130px;
+}
+.todo-toggle {
+  color: white;
+  border: none;
+}

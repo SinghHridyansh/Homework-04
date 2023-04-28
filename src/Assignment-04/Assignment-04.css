@@ -1,0 +1,84 @@
+h1,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+.card_2 {
+  background-color: #e9eef2;
+  height: 70vh;
+  width: 500px;
+  border-radius: 20px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 15px 50px #b0b0b0;
+}
+.card_2_main {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-div {
+  position: relative;
+}
+.user-img {
+  width: 500px;
+  height: 320px;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.dots {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.plus {
+  background-color: #e33d6f;
+  font-size: 24px;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.middle-deets {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  width: 100%;
+}
+.name {
+  font-size: 37px;
+  font-weight: 500;
+  color: black;
+}
+.designation {
+  font-size: 17px;
+}
+.deet-head {
+  font-size: 15px;
+}
+.deets {
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+}
+.bottom-count {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}

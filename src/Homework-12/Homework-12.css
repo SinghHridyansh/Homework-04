@@ -1,0 +1,121 @@
+.Homework_12 {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+.Homework_12 > h1 {
+  color: black;
+}
+.Homework_12_card {
+  height: 240px;
+  width: 470px;
+  background-color: #232f3e;
+  display: flex;
+  border-radius: 18px;
+}
+.Homework_12cardimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.Homework_12img {
+  width: 50%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Homework_12img2 {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Homework_12_Productdata {
+  width: 50%;
+  color: white;
+  text-align: left;
+  /* padding: 10px; */
+  padding-right: 10px;
+  /* background-color: rgba(0, 255, 255, 0.655); */
+  border-radius: 18px;
+  position: relative;
+}
+.Homework_12_Productdata > h3,
+.Homework_12_Productdata > h5,
+.Homework_12_Productdata > p {
+  margin: 0;
+  padding: 0;
+}
+
+.Homework_12_ProductdataBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+.Homework_12_ProductdataBottom > button {
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(250, 186, 67);
+  font-weight: 600;
+  margin-right: 20px;
+}
+.Homework_12_ProductdataBottom > button:hover {
+  background-color: rgb(61, 197, 95);
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.Homework_12_ProductdataBottom > p {
+  font-weight: 600;
+  color: white;
+}
+.Homework_12_Productdata > h3 {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.Homework_12_Productdata > h5 {
+  color: rgb(250, 186, 67);
+  font-size: 11px;
+}
+.Homework_12_Productdata > p {
+  font-size: 13px;
+  color: rgb(207, 205, 205);
+  margin-top: 5px;
+}
+.Homework_12_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.Homework_12_nav {
+  width: 100%;
+  height: 80px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Homework_12_nav > h4,
+.Homework_12_nav > h2 {
+  margin: 0;
+}
+.Homework_12_nav > h4 {
+  color: white;
+  font-size: 17px;
+}
+.Homework_12_nav > h2 {
+  color: rgb(250, 186, 67);
+}
